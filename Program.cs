@@ -20,7 +20,16 @@ namespace StudentModule
                 GradeId = 2,
                 collageID = 10001
                };
-
+            Student newStudents = new Student()
+            {
+                FirstName = "Deni",
+                LastName = "Rechared",
+                Address = "Londan",
+                Gender = "Female",
+                Age = 22,
+                GradeId = 1,
+                collageID = 10003
+            };
         }
        /* private static void AddPatient(SMDataContext context)
         {
